@@ -1,0 +1,56 @@
+/* bottombar.css - a fixed bar at the bottom of the viewport */
+
+:root {
+  --bb-height: 4rem;
+  --bb-padding: 0.5rem 0;
+  --bb-background-color: #282828;
+  --bb-border-color: #181818;
+  --bb-text-color: #c0c0c0;
+  --bb-text-color-highlight: #ffffff;
+  --bb-font-family: Helvetica, sans-serif;
+  --bb-font-size: 1rem;
+  --bb-font-weight: 300;
+}
+body {
+  /* prevent bar from hiding content */
+  padding-bottom: calc(var(--bb-height) + 8px);
+}
+.bottom-bar {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1030;
+  min-height: var(--bb-height);
+  background-color: var(--bb-background-color);
+  border-top: 1px solid var(--bb-border-color);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  padding: var(--bb-padding);
+  color: var(--bb-text-color);
+  font-size: var(--bb-font-size);
+  font-family: var(--bb-font-family);
+}
+.bottom-bar button {
+  display: block;
+  font-size: var(--bb-font-size);
+  font-weight: var(--bb-font-weight);
+  color: var(--bb-text-color);
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  padding: 0.375rem 0.75rem;
+  transition: color 0.3s ease-in-out;
+}
+.bottom-bar button:hover {
+  color: var(--bb-text-color-highlight);
+}
+.bottom-bar .fal {
+  font-size: 2rem;
+}
