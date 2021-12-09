@@ -33,20 +33,20 @@ Then in the HTML body:
 ```html
 <div class="bottom-bar">
   <button>
-    <i class="fal fa-map-marker-question"></i><br>
-    where am i
+    <i class="far fa-angry"></i><br>
+    angry!
   </button>
   <button>
-    <i class="fal fa-thumbs-up"></i><br>
+    <i class="far fa-thumbs-up"></i><br>
     like
   </button>
   <button>
-    <i class="fal fa-cog"></i><br>
-    settings
+    <i class="far fa-heart"></i><br>
+    love
   </button>
   <button>
-    <i class="fal fa-info-circle"></i><br>
-    info
+    <i class="far fa-window-close"></i><br>
+    close
   </button>
   <div>some<br>
     text</div>
