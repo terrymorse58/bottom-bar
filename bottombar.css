@@ -51,6 +51,10 @@ body {
 .bottom-bar button:hover {
   color: var(--bb-text-color-highlight);
 }
-.bottom-bar .fal {
+/* fontawesome classes */
+.bottom-bar .fal,
+.bottom-bar .fab,
+.bottom-bar .fas,
+.bottom-bar .far {
   font-size: 2rem;
 }

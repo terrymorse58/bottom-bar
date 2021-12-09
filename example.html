@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Experiment: Bottom Bar with buttons</title>
+  <meta name="description"
+        content="build a bottom of viewport bar with buttons">
+  <meta charset="UTF-8">
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport"
+        content="width=device-width, maximum-scale=1, minimum-scale=1, shrink-to-fit=no, user-scalable=no">
+
+  <!-- for iOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="elevation">
+
+  <!-- use fontawesome regular for icons -->
+  <link
+    href="fontawesome/css/fontawesome.css"
+    rel="stylesheet">
+  <link
+    href="fontawesome/css/regular.css"
+    rel="stylesheet">
+
+  <!-- link to the bottom-bar style sheet -->
+  <link
+    href="bottombar.css"
+    rel="stylesheet">
+
+  <style>
+
+    /* change any of the css variables to adjust appearance */
+    :root {
+      --bb-background-color: darkgreen;
+    }
+
+    /* just for illustration, not important */
+    .wrapper {
+      height: 200vh;
+      border: 1px solid #505050;
+      margin: 1rem;
+      padding: 2rem;
+      font-family: Helvetica, sans-serif;
+      background-color: lightgray;
+    }
+  </style>
+
+</head>
+<body>
+<div id="wrapper" class="wrapper">
+  <h1>Fixed bottom bar with buttons</h1>
+</div>
+
+<div class="bottom-bar">
+  <button>
+    <i class="far fa-angry"></i><br>
+    angry!
+  </button>
+  <button>
+    <i class="far fa-thumbs-up"></i><br>
+    like
+  </button>
+  <button>
+    <i class="far fa-heart"></i><br>
+    love
+  </button>
+  <button>
+    <i class="far fa-window-close"></i><br>
+    close
+  </button>
+  <div>some<br>
+    text</div>
+
+
+</div>
+</body>
+</html>
